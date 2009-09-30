@@ -4,5 +4,5 @@
   Since we don't really have anything dynamic here, let's just use static HTML. 
 -->
 <div>
-  This plugin is a plugin to set environment variables.
+  This plugin can be used to set environment variables to be applied to all build steps in a given job.
 </div>
