@@ -9,7 +9,7 @@
 
   <groupId>org.jvnet.hudson.plugins</groupId>
   <artifactId>setenv</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>hpi</packaging>
   <name>Hudson Setenv Plugin</name>
   <url>http://wiki.hudson-ci.org/display/HUDSON/Setenv+Plugin</url>
@@ -30,9 +30,9 @@
   </developers>
 
   <scm>
-    <connection>scm:svn:https://guest@svn.dev.java.net/svn/hudson/trunk/hudson/plugins/setenv</connection>
-    <developerConnection>scm:svn:https://svn.dev.java.net/svn/hudson/trunk/hudson/plugins/setenv</developerConnection>
-    <url>https://hudson.dev.java.net/source/browse/hudson/hudson/plugins/setenv</url>
+    <connection>scm:svn:https://guest@svn.dev.java.net/svn/hudson/tags/setenv-1.0</connection>
+    <developerConnection>scm:svn:https://svn.dev.java.net/svn/hudson/tags/setenv-1.0</developerConnection>
+    <url>https://hudson.dev.java.net/source/browse/hudson/hudson/plugins/setenv/tags/setenv-1.0</url>
   </scm>
 
   <build>
