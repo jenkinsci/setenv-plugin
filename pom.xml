@@ -1,18 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.jvnet.hudson.plugins</groupId>
+    <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.323</version><!-- which version of Hudson is this plugin built against? -->
-    <relativePath>../pom.xml</relativePath>
+    <version>1.398</version>
   </parent>
 
-  <groupId>org.jvnet.hudson.plugins</groupId>
   <artifactId>setenv</artifactId>
   <version>1.2-SNAPSHOT</version>
   <packaging>hpi</packaging>
-  <name>Hudson Setenv Plugin</name>
-  <url>http://wiki.hudson-ci.org/display/HUDSON/Setenv+Plugin</url>
+  <name>Setenv Plugin</name>
+  <url>http://wiki.jenkins-ci.org/display/JENKINS/Setenv+Plugin</url>
   <licenses>
     <license>
       <name>MIT license</name>
@@ -28,6 +26,12 @@
       <timezone>-8</timezone>
     </developer>
   </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/jenkinsci/setenv-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/setenv-plugin.git</developerConnection>
+    <url>https://github.com/jenkinsci/setenv-plugin</url>
+  </scm>
 
   <build>
     <plugins>
